@@ -1,0 +1,13 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the staff_init() hook (in hooks/staff.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="staff-id-<%%VALUE(id)%%>" class="staff-id text-right"><%%VALUE(id)%%></td>
+		<td id="staff-full_name-<%%VALUE(id)%%>" class="staff-full_name"><%%VALUE(full_name)%%></td>
+		<td id="staff-national_id-<%%VALUE(id)%%>" class="staff-national_id"><%%VALUE(national_id)%%></td>
+		<td id="staff-department-<%%VALUE(id)%%>" class="staff-department"><%%VALUE(department)%%></td>
+		<td id="staff-phone_number-<%%VALUE(id)%%>" class="staff-phone_number"><%%VALUE(phone_number)%%></td>
+		<td id="staff-gender-<%%VALUE(id)%%>" class="staff-gender"><%%VALUE(gender)%%></td>

@@ -1,0 +1,21 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the gatepass_init() hook (in hooks/gatepass.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="gatepass-id-<%%VALUE(id)%%>" class="gatepass-id text-right"><%%SELECT%%><%%VALUE(id)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-entry_time-<%%VALUE(id)%%>" class="gatepass-entry_time"><%%SELECT%%><%%VALUE(entry_time)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-exit_time-<%%VALUE(id)%%>" class="gatepass-exit_time"><%%SELECT%%><%%VALUE(exit_time)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-gate-<%%VALUE(id)%%>" class="gatepass-gate text-right"><%%SELECT%%><%%VALUE(gate)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-purpose_of_visit-<%%VALUE(id)%%>" class="gatepass-purpose_of_visit"><%%SELECT%%><%%VALUE(purpose_of_visit)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-invited_by-<%%VALUE(id)%%>" class="gatepass-invited_by text-right"><%%SELECT%%><%%VALUE(invited_by)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-staff-<%%VALUE(id)%%>" class="gatepass-staff text-right"><%%SELECT%%><%%VALUE(staff)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-individual-<%%VALUE(id)%%>" class="gatepass-individual text-right"><%%SELECT%%><%%VALUE(individual)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-group-<%%VALUE(id)%%>" class="gatepass-group text-right"><%%SELECT%%><%%VALUE(group)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-vehicle-<%%VALUE(id)%%>" class="gatepass-vehicle text-right"><%%SELECT%%><%%VALUE(vehicle)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-luggage-<%%VALUE(id)%%>" class="gatepass-luggage text-right"><%%SELECT%%><%%VALUE(luggage)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-date-<%%VALUE(id)%%>" class="gatepass-date"><%%SELECT%%><%%VALUE(date)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-status-<%%VALUE(id)%%>" class="gatepass-status"><%%SELECT%%><%%VALUE(status)%%><%%ENDSELECT%%></td>
+		<td id="gatepass-reason-<%%VALUE(id)%%>" class="gatepass-reason"><%%SELECT%%><%%VALUE(reason)%%><%%ENDSELECT%%></td>

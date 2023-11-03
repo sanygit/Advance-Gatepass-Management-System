@@ -1,0 +1,10 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the kikundi_init() hook (in hooks/kikundi.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="kikundi-id-<%%VALUE(id)%%>" class="kikundi-id text-right"><%%VALUE(id)%%></td>
+		<td id="kikundi-group_name-<%%VALUE(id)%%>" class="kikundi-group_name"><%%VALUE(group_name)%%></td>
+		<td id="kikundi-members-<%%VALUE(id)%%>" class="kikundi-members"><%%VALUE(members)%%></td>

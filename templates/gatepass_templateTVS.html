@@ -1,0 +1,21 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the gatepass_init() hook (in hooks/gatepass.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="gatepass-id-<%%VALUE(id)%%>" class="gatepass-id text-right"><%%VALUE(id)%%></td>
+		<td id="gatepass-entry_time-<%%VALUE(id)%%>" class="gatepass-entry_time"><%%VALUE(entry_time)%%></td>
+		<td id="gatepass-exit_time-<%%VALUE(id)%%>" class="gatepass-exit_time"><%%VALUE(exit_time)%%></td>
+		<td id="gatepass-gate-<%%VALUE(id)%%>" class="gatepass-gate text-right"><%%VALUE(gate)%%></td>
+		<td id="gatepass-purpose_of_visit-<%%VALUE(id)%%>" class="gatepass-purpose_of_visit"><%%VALUE(purpose_of_visit)%%></td>
+		<td id="gatepass-invited_by-<%%VALUE(id)%%>" class="gatepass-invited_by text-right"><%%VALUE(invited_by)%%></td>
+		<td id="gatepass-staff-<%%VALUE(id)%%>" class="gatepass-staff text-right"><%%VALUE(staff)%%></td>
+		<td id="gatepass-individual-<%%VALUE(id)%%>" class="gatepass-individual text-right"><%%VALUE(individual)%%></td>
+		<td id="gatepass-group-<%%VALUE(id)%%>" class="gatepass-group text-right"><%%VALUE(group)%%></td>
+		<td id="gatepass-vehicle-<%%VALUE(id)%%>" class="gatepass-vehicle text-right"><%%VALUE(vehicle)%%></td>
+		<td id="gatepass-luggage-<%%VALUE(id)%%>" class="gatepass-luggage text-right"><%%VALUE(luggage)%%></td>
+		<td id="gatepass-date-<%%VALUE(id)%%>" class="gatepass-date"><%%VALUE(date)%%></td>
+		<td id="gatepass-status-<%%VALUE(id)%%>" class="gatepass-status"><%%VALUE(status)%%></td>
+		<td id="gatepass-reason-<%%VALUE(id)%%>" class="gatepass-reason"><%%VALUE(reason)%%></td>
